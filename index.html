@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather app</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="container">
+    <div class="search-box">
+      <i class='bx bxs-map'></i>
+      <input type="text" placeholder="enter your location">
+      <button class="bx bx-search"></button>
+    </div>
+
+    <div class="weather-box">
+      <div class="box">
+        <div class="info-weather">
+          <div class="weather">
+            <img
+              src="https://images.unsplash.com/photo-1609881142760-298c2e76725b?auto=format&fit=crop&q=80&w=2835&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <p class="temperature">16 <span>°C</span></p>
+            <p class="description">Cloudy and sunny</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="not-found">
+      <div class="box">
+        <img src="https://cdn4.vectorstock.com/i/1000x1000/85/43/error-page-not-found-vector-27898543.jpg">
+        <p>Oops! location not found!</p>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
